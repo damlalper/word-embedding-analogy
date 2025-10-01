@@ -7,11 +7,13 @@ Amaç: embedding modellerinin çalışma mantığını görmek, analogiler çöz
 
 ## 🚀 Kurulum
 ```bash
-wget https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.tr.300.vec.gz
+(wget https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.tr.300.vec.gz
 gunzip cc.tr.300.vec.gz
 pip install gensim==4.3.3 numpy==1.26.4 scipy==1.13.1
 from gensim.models import KeyedVectors
-model = KeyedVectors.load_word2vec_format("cc.tr.300.vec", limit=500000)
+model = KeyedVectors.load_word2vec_format("cc.tr.300.vec", limit=500000)```
+
+```
 
 🔎 Sonuçlar  
 
